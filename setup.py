@@ -22,8 +22,8 @@ As a release builder:
 
 __author__ = "cocos2d team"
 __author_email__ = "lucio.torre@gmail.com"
-__version__ = "0.6.9"
-__date__ = "2020 11 07"
+__version__ = "0.6.10"
+__date__ = "2023 07 16"
 
 try:
     import setuptools
@@ -31,7 +31,7 @@ except ImportError:
     from ez_setup import use_setuptools
     use_setuptools()
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 import os
 
